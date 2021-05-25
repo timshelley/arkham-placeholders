@@ -1,0 +1,8 @@
+@media print {
+    app-faction-toggle,
+    app-card-list-table,
+    app-cycle-toggle,
+    app-type-toggle {
+        display: none;
+    }
+}

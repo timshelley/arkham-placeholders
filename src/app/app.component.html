@@ -1,0 +1,4 @@
+<app-faction-toggle [value]="(cardFilter$ | async)?.factions || []" (change)='factionChange($event)'></app-faction-toggle>
+<app-cycle-toggle [value]="(cardFilter$ | async)?.cycles || []" (change)="cycleChange($event)"></app-cycle-toggle>
+<app-type-toggle [value]="(cardFilter$ | async)?.types || []" (change)="typeChange($event)"></app-type-toggle>
+<app-card-placeholders [cards]="(cards$ | async) || []"></app-card-placeholders>

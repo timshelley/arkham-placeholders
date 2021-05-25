@@ -1,0 +1,93 @@
+@font-face {
+    font-family: "Birmingham";
+    src: url(/assets/fonts/Birmingham.ttf);
+}
+
+@font-face {
+    font-family: 'Teutonic';
+    src: url(/assets/fonts/Teutonic.ttf);
+}
+
+@font-face {
+    font-family: 'Nimbus';
+    src: url(/assets/fonts/NimbusRomNo9L-Reg.otf);
+}
+
+:host {
+    position: relative;
+    width: var(--card-width);
+    height: var(--card-height);
+    text-align: center;
+    font-family: 'Nimbus', Times, serif;
+    font-size: 0.8em;
+    --card-width: 2.4in;
+    --card-height: 3.38in;
+}
+
+.faction-icon img {
+    width: 30px;
+    height: 30px;
+}
+
+img.card-bg {
+    width: var(--card-width);
+    height: var(--card-height);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.xp img {
+    width: 16px;
+    height: 16px;
+}
+
+.card-details {
+    position: relative;
+    z-index: 99;
+    padding: 7mm;
+    height: 74mm;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-wrapper {
+    font-family: "Teutonic";
+    padding-bottom: 0.5em;
+}
+
+.card-title {
+    font-size: 22px;
+}
+
+.card-cost {
+    font-size: 0.7em;
+    vertical-align: super;
+    padding-left: 3px;
+}
+.card-cost::before {
+    content: '(';
+}
+.card-cost::after {
+    content: ')';
+}
+
+.card-subtitle {
+    font-size: 14px;
+}
+
+.cycle {
+   border-top: 1px solid;
+   margin-top: 0.5em;
+   padding-top: 0.5em;
+}
+
+.order-number {
+    font-family: 'Teutonic';
+    color: white;
+    font-size: 12px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}

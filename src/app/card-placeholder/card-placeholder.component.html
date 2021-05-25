@@ -1,0 +1,21 @@
+<div class="card-details" (click)="logCard()">
+    <div class="faction-icon">
+        <img src="{{factionImage1}}" />
+        <img *ngIf="factionImage2" src="{{factionImage2}}" />
+    </div>
+
+    <div class="title-wrapper">
+        <div class="card-title">{{card.name || ''}}<span *ngIf="showCost" class="card-cost">{{cardCost}}</span></div>
+        <div class="card-subtitle" *ngIf="subname">({{subname}})</div>
+    </div>
+    <div class="xp" *ngIf="cardXp">
+        <span *ngFor="let star of xpStars"><img src="/assets/star.svg" /></span>
+    </div>
+
+    
+
+    <div class="cycle">{{card.cycle_details?.name || ''}}</div>
+    <div class="pack">{{cardPack}}</div>
+    <!-- <div class="order-number">{{orderNumber}}</div> -->
+</div>
+<img class="card-bg" src="/assets/card-bg.png" />

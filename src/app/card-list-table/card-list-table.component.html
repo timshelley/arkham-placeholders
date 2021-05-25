@@ -1,0 +1,39 @@
+<table mat-table [dataSource]="cards">
+      <ng-container matColumnDef="name">
+        <th mat-header-cell *matHeaderCellDef> Card Title </th>
+        <td mat-cell *matCellDef="let card"> {{card.name}} </td>
+      </ng-container>
+
+      <ng-container matColumnDef="pack_name">
+        <th mat-header-cell *matHeaderCellDef> Pack </th>
+        <td mat-cell *matCellDef="let card"> {{card.pack_name}} </td>
+      </ng-container>
+
+      <ng-container matColumnDef="faction_name">
+        <th mat-header-cell *matHeaderCellDef> Faction </th>
+        <td mat-cell *matCellDef="let card"> {{card.faction_name}} </td>
+      </ng-container>
+
+      <ng-container matColumnDef="type_name">
+        <th mat-header-cell *matHeaderCellDef> Type </th>
+        <td mat-cell *matCellDef="let card"> {{card.type_name}} </td>
+      </ng-container>
+
+      <ng-container matColumnDef="quantity">
+        <th mat-header-cell *matHeaderCellDef> Quantity </th>
+        <td mat-cell *matCellDef="let card"> {{card.quantity}} </td>
+      </ng-container>
+
+      <ng-container matColumnDef="xp">
+        <th mat-header-cell *matHeaderCellDef> XP </th>
+        <td mat-cell *matCellDef="let card"> {{card.xp}} </td>
+      </ng-container>
+
+      <ng-container matColumnDef="url">
+        <th mat-header-cell *matHeaderCellDef> ArkhamDB </th>
+        <td mat-cell *matCellDef="let card"> <a href="{{card.url}}" target="_blank">ArkhamDB</a></td>
+      </ng-container>
+
+      <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+      <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+</table>

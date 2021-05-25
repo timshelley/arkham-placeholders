@@ -1,0 +1,27 @@
+.page {
+    position: relative;
+    width: 7.4in;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.card-page { 
+    background-color: black;
+}
+app-card-placeholder {
+    float: left;
+    margin-right: 1px;
+    margin-bottom: 1px;
+}
+app-card-placeholder:nth-child(3n) {
+    margin-right: 0px;
+}
+@media print {
+    body {
+        margin: 0;
+        padding: 0;
+    }
+    .page {
+        justify-content: center;
+        page-break-after: always;
+    }
+}

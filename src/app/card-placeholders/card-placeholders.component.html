@@ -1,0 +1,6 @@
+<div class="page" *ngFor="let page of paginatedCards; let pageIndex = index">
+    <!-- <div>Page: {{pageIndex + 1}}</div> -->
+    <div class="card-page" >
+        <app-card-placeholder *ngFor="let card of page.cards; let i = index" [card]="card" [orderNumber]="(i + 1)"></app-card-placeholder>
+    </div>
+</div>

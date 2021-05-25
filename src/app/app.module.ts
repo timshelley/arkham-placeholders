@@ -12,6 +12,7 @@ import { FactionToggleComponent } from './faction-toggle/faction-toggle.componen
 import { CardPlaceholderComponent } from './card-placeholder/card-placeholder.component';
 import { CycleToggleComponent } from './cycle-toggle/cycle-toggle.component';
 import { TypeToggleComponent } from './type-toggle/type-toggle.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -27,6 +28,7 @@ import { TypeToggleComponent } from './type-toggle/type-toggle.component';
     BrowserModule,
     BrowserAnimationsModule,
     CommonModule,
+    HttpClientModule,
     MatButtonToggleModule,
     MatTableModule
   ],

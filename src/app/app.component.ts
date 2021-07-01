@@ -38,11 +38,12 @@ export class AppComponent {
         mergeMap((cards) => {
           return this.cardFilter$.pipe(
             map((filters: CardFilter) => {
-              // console.log('new cycle filter: ', filters);
+              // console.log('new cycle filter: ', filters, cards);
               return cards
                 .filter((c) => filters.cycles.includes(c.cycle_details?.code ?? ''))
                 .filter((c) => filters.factions.includes(c.faction_code))
                 .filter((c) => {
+                  // console.log('cards after cycle and faction: ', c);
                   let showWeaknesses: boolean = filters.types.includes('weakness');
                   let cardHasSubType: boolean = !!c.subtype_code;
 
@@ -54,7 +55,7 @@ export class AppComponent {
                     // console.log('matchesType: ', matchesType, 'matchesSubType: ', matchesSubType, c.type_code);
                     return (matchesType && matchesSubType);
                   } else {
-                    // console.log('matching non-weakness', c.type_code, filters.types)
+                    console.log('matching non-weakness', c.type_code, filters.types)
 
                     return filters.types.includes(c.type_code);
                   }

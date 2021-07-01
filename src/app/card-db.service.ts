@@ -61,8 +61,14 @@ export class CardDBService {
       .filter((card: ArkhamDBCard) => card.name !== 'Random Basic Weakness')
       .map((card: ArkhamDBCard) => {
         let packDetails: ArkhamDBPack = rawPacks.find((p: ArkhamDBPack) => p.code === card.pack_code) || ({} as any);
+        console.log('packDetails: ', packDetails);
         let cycleDetails: ArkhamDBPack = rawPacks.find((p: ArkhamDBPack) => {
-          return p.cycle_position === packDetails.cycle_position && p.position === 1;
+          if (p.cycle_position === 80) {
+            // Use the "promo" pack as the base cycle
+            return p.cycle_position === packDetails.cycle_position && p.position === 30;
+          } else {
+            return p.cycle_position === packDetails.cycle_position && p.position === 1;
+          }
         })  || ({} as any);
 
         let isCycleInvestigators: boolean = packDetails.cycle_position === 60;

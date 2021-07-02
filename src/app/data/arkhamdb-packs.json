@@ -1,25 +1,36 @@
 [
     {
+        "name": "Edge of the Earth Investigator Expansion",
+        "code": "eoep",
+        "position": 1,
+        "cycle_position": 8,
+        "available": "",
+        "known": 10,
+        "total": 300,
+        "url": "https:\/\/arkhamdb.com\/set\/eoep",
+        "id": 73
+    },
+    {
+        "name": "Edge of the Earth Campaign Expansion",
+        "code": "eoec",
+        "position": 2,
+        "cycle_position": 8,
+        "available": "",
+        "known": 0,
+        "total": 300,
+        "url": "https:\/\/arkhamdb.com\/set\/eoec",
+        "id": 74
+    },
+    {
         "name": "Return to the Circle Undone",
         "code": "rttcu",
         "position": 5,
         "cycle_position": 50,
         "available": "",
-        "known": 3,
+        "known": 16,
         "total": 80,
         "url": "https:\/\/arkhamdb.com\/set\/rttcu",
         "id": 72
-    },
-    {
-        "name": "Into the Maelstrom",
-        "code": "itm",
-        "position": 7,
-        "cycle_position": 7,
-        "available": "",
-        "known": 10,
-        "total": 60,
-        "url": "https:\/\/arkhamdb.com\/set\/itm",
-        "id": 61
     },
     {
         "name": "Core Set",
@@ -775,7 +786,7 @@
         "position": 5,
         "cycle_position": 7,
         "available": "2021-02-19",
-        "known": 11,
+        "known": 42,
         "total": 60,
         "url": "https:\/\/arkhamdb.com\/set\/lif",
         "id": 59
@@ -786,9 +797,31 @@
         "position": 6,
         "cycle_position": 7,
         "available": "2021-03-19",
-        "known": 13,
+        "known": 42,
         "total": 60,
         "url": "https:\/\/arkhamdb.com\/set\/lod",
         "id": 60
+    },
+    {
+        "name": "Into the Maelstrom",
+        "code": "itm",
+        "position": 7,
+        "cycle_position": 7,
+        "available": "2021-05-21",
+        "known": 10,
+        "total": 60,
+        "url": "https:\/\/arkhamdb.com\/set\/itm",
+        "id": 61
+    },
+    {
+        "name": "By the Book",
+        "code": "btb",
+        "position": 4,
+        "cycle_position": 90,
+        "available": "2021-06-18",
+        "known": 14,
+        "total": 13,
+        "url": "https:\/\/arkhamdb.com\/set\/btb",
+        "id": 75
     }
 ]

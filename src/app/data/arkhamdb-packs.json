@@ -1,16 +1,5 @@
 [
     {
-        "name": "Edge of the Earth Investigator Expansion",
-        "code": "eoep",
-        "position": 1,
-        "cycle_position": 8,
-        "available": "",
-        "known": 10,
-        "total": 300,
-        "url": "https:\/\/arkhamdb.com\/set\/eoep",
-        "id": 73
-    },
-    {
         "name": "Edge of the Earth Campaign Expansion",
         "code": "eoec",
         "position": 2,
@@ -20,17 +9,6 @@
         "total": 300,
         "url": "https:\/\/arkhamdb.com\/set\/eoec",
         "id": 74
-    },
-    {
-        "name": "Return to the Circle Undone",
-        "code": "rttcu",
-        "position": 5,
-        "cycle_position": 50,
-        "available": "",
-        "known": 16,
-        "total": 80,
-        "url": "https:\/\/arkhamdb.com\/set\/rttcu",
-        "id": 72
     },
     {
         "name": "Core Set",
@@ -165,17 +143,6 @@
         "id": 12
     },
     {
-        "name": "Books",
-        "code": "books",
-        "position": 20,
-        "cycle_position": 80,
-        "available": "2017-10-13",
-        "known": 0,
-        "total": 3,
-        "url": "https:\/\/arkhamdb.com\/set\/books",
-        "id": 19
-    },
-    {
         "name": "Hour of the Huntress",
         "code": "hoth",
         "position": 20,
@@ -185,6 +152,17 @@
         "total": 3,
         "url": "https:\/\/arkhamdb.com\/set\/hoth",
         "id": 63
+    },
+    {
+        "name": "Books",
+        "code": "books",
+        "position": 20,
+        "cycle_position": 80,
+        "available": "2017-10-13",
+        "known": 0,
+        "total": 3,
+        "url": "https:\/\/arkhamdb.com\/set\/books",
+        "id": 19
     },
     {
         "name": "Echoes of the Past",
@@ -808,7 +786,7 @@
         "position": 7,
         "cycle_position": 7,
         "available": "2021-05-21",
-        "known": 10,
+        "known": 40,
         "total": 60,
         "url": "https:\/\/arkhamdb.com\/set\/itm",
         "id": 61
@@ -823,5 +801,27 @@
         "total": 13,
         "url": "https:\/\/arkhamdb.com\/set\/btb",
         "id": 75
+    },
+    {
+        "name": "Return to the Circle Undone",
+        "code": "rttcu",
+        "position": 5,
+        "cycle_position": 50,
+        "available": "2021-06-24",
+        "known": 16,
+        "total": 80,
+        "url": "https:\/\/arkhamdb.com\/set\/rttcu",
+        "id": 72
+    },
+    {
+        "name": "Edge of the Earth Investigator Expansion",
+        "code": "eoep",
+        "position": 1,
+        "cycle_position": 8,
+        "available": "2021-09-10",
+        "known": 137,
+        "total": 300,
+        "url": "https:\/\/arkhamdb.com\/set\/eoep",
+        "id": 73
     }
 ]

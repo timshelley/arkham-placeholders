@@ -1,14 +1,14 @@
 [
     {
-        "name": "Edge of the Earth Campaign Expansion",
-        "code": "eoec",
-        "position": 2,
-        "cycle_position": 8,
+        "name": "Machinations Through Time",
+        "code": "mtt",
+        "position": 8,
+        "cycle_position": 70,
         "available": "",
-        "known": 0,
-        "total": 300,
-        "url": "https:\/\/arkhamdb.com\/set\/eoec",
-        "id": 74
+        "known": 3,
+        "total": 78,
+        "url": "https:\/\/arkhamdb.com\/set\/mtt",
+        "id": 77
     },
     {
         "name": "Core Set",
@@ -143,17 +143,6 @@
         "id": 12
     },
     {
-        "name": "Hour of the Huntress",
-        "code": "hoth",
-        "position": 20,
-        "cycle_position": 80,
-        "available": "2017-10-13",
-        "known": 3,
-        "total": 3,
-        "url": "https:\/\/arkhamdb.com\/set\/hoth",
-        "id": 63
-    },
-    {
         "name": "Books",
         "code": "books",
         "position": 20,
@@ -163,6 +152,17 @@
         "total": 3,
         "url": "https:\/\/arkhamdb.com\/set\/books",
         "id": 19
+    },
+    {
+        "name": "Hour of the Huntress",
+        "code": "hoth",
+        "position": 20,
+        "cycle_position": 80,
+        "available": "2017-10-13",
+        "known": 3,
+        "total": 3,
+        "url": "https:\/\/arkhamdb.com\/set\/hoth",
+        "id": 63
     },
     {
         "name": "Echoes of the Past",
@@ -693,6 +693,17 @@
         "id": 51
     },
     {
+        "name": "Revised Core Set",
+        "code": "rcore",
+        "position": 2,
+        "cycle_position": 1,
+        "available": "2020-10-01",
+        "known": 116,
+        "total": 195,
+        "url": "https:\/\/arkhamdb.com\/set\/rcore",
+        "id": 76
+    },
+    {
         "name": "The Innsmouth Conspiracy",
         "code": "tic",
         "position": 1,
@@ -808,7 +819,7 @@
         "position": 5,
         "cycle_position": 50,
         "available": "2021-06-24",
-        "known": 16,
+        "known": 78,
         "total": 80,
         "url": "https:\/\/arkhamdb.com\/set\/rttcu",
         "id": 72
@@ -823,5 +834,49 @@
         "total": 300,
         "url": "https:\/\/arkhamdb.com\/set\/eoep",
         "id": 73
+    },
+    {
+        "name": "Edge of the Earth Campaign Expansion",
+        "code": "eoec",
+        "position": 2,
+        "cycle_position": 8,
+        "available": "2021-11-12",
+        "known": 266,
+        "total": 300,
+        "url": "https:\/\/arkhamdb.com\/set\/eoec",
+        "id": 74
+    },
+    {
+        "name": "Red Tide Rising",
+        "code": "rtr",
+        "position": 5,
+        "cycle_position": 90,
+        "available": "2021-12-30",
+        "known": 10,
+        "total": 9,
+        "url": "https:\/\/arkhamdb.com\/set\/rtr",
+        "id": 78
+    },
+    {
+        "name": "The Scarlet Keys Investigator Expansion",
+        "code": "tskp",
+        "position": 1,
+        "cycle_position": 9,
+        "available": "2022-09-30",
+        "known": 128,
+        "total": 300,
+        "url": "https:\/\/arkhamdb.com\/set\/tskp",
+        "id": 79
+    },
+    {
+        "name": "The Scarlet Keys Campaign Expansion",
+        "code": "tskc",
+        "position": 2,
+        "cycle_position": 9,
+        "available": "2022-10-01",
+        "known": 0,
+        "total": 300,
+        "url": "https:\/\/arkhamdb.com\/set\/tskc",
+        "id": 80
     }
 ]
